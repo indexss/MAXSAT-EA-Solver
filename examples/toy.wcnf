@@ -1,0 +1,5 @@
+c tiny example
+p wcnf 2 2
+10 1 -2 0
+10 -1 2 0
+

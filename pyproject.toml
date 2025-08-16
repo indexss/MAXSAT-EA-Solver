@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wcnfkit"
+version = "0.1.0"
+description = "Weighted CNF toolkit: WCNF parsing, satisfaction checking, evolutionary search"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+  { name = "lxs432" }
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/OWNER/REPO"
+Issues = "https://github.com/OWNER/REPO/issues"
+
+[project.scripts]
+wcnfkit = "main:main"
+
+[tool.setuptools]
+py-modules = ["main"]
+packages = ["wcnfkit"]
+
+
